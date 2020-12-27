@@ -5,7 +5,7 @@ import torch.backends.cudnn as cudnn
 import torch.optim as optim
 import torch.utils.data
 import sys
-sys.path.append("../")
+#sys.path.append("../")
 from data_utils import ADVMNISTLoader
 from torchvision import datasets
 from torchvision import transforms
